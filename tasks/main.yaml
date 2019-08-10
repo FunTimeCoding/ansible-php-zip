@@ -1,1 +1,5 @@
 ---
+- apt:
+    name: php-zip
+  remote_user: root
+  when: ansible_os_family == 'Debian'
