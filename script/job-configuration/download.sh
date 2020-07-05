@@ -1,3 +1,3 @@
 #!/bin/sh -e
 
-~/src/jenkins-tools/bin/get-job.sh ansible-php-zip job.xml
+~/src/continuous-integration-tools/bin/jenkins/get-job.sh ansible-php-zip job.xml
